@@ -2,7 +2,7 @@ version: '3'
 
 services:
   txtdot:
-    image: ghcr.io/txtdot/txtdot:latest
+    image: kylebrothers/txtdot-full:latest
     ports:
       - '8088:8080'
     restart: unless-stopped
